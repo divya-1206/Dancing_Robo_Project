@@ -1,0 +1,286 @@
+.{
+    background-color: azure;
+}
+#sub1{
+    width: 200px;
+    height: 100px;
+    border-radius: 12rem 12rem 0 0;
+    background-color: #ffff33;
+    margin: 10px;
+    border:2px solid;
+    margin-top: 280px;
+    margin-left: 200px;
+}
+.eye{
+    position: relative;  
+    top:-50px;  
+   
+}
+#lefteye{
+    border: 2px;
+    border-radius: 15px;
+    width: 20px;
+    height: 20px;
+    display:inline-block;
+    margin-left: 250px;
+    margin-right: 50px;
+    background-color: black;
+}
+#righteye{
+    border: 2px;
+    border-radius: 15px;
+    width: 20px;
+    height: 20px;
+    display:inline-block;
+    top:-50px;
+    margin-left: -30px;
+    margin-right: 120px;
+    background-color: black;
+}
+#sub2{
+    width: 200px;
+    height:180px;
+    border-radius: 0 0 50px 50px;
+    background-color: #ffff33;
+    margin: 10px;
+    border:2px solid;
+    margin-top: -30px;
+    margin-left: 200px;
+}
+#sub3{
+    width: 30px;
+    height:115px;
+    background-color: #ffff33;
+    border-radius: 0 0 20px 20px;
+    margin: 10px;
+    border:2px solid;
+    margin-top: -50px;
+    margin-left: 240px;
+}
+#sub4{
+    width: 30px;
+    height:115px;
+    background-color: #ffff33;
+    border-radius: 0 0 20px 20px;
+    border:2px solid;
+    margin-top: -130px;
+    margin-left: 330px;
+    display:flex;
+    justify-content: center;
+}
+#sub5{
+    width: 30px;
+    height:115px;
+    background-color: #ffff33;
+    border-radius: 20px;
+    border:2px solid;
+    margin-top: -250px;
+    margin-left: 160px;
+    display:flex;
+    justify-content: center;
+}
+#sub6{
+    width: 30px;
+    height:115px;
+    background-color: #ffff33;
+    border-radius: 20px;
+    border:2px solid;
+    margin-top: -120px;
+    margin-left: 410px;
+    display:flex;
+    justify-content: center;
+}
+.cont:hover #sub1{
+    transition: transform 1s ease-in;
+    transform: rotate3d(0,1,0,180deg);
+    animation-name: color_change;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes color_change{
+    from{background-color: blanchedalmond;}
+    to{background-color: purple;}
+}
+@keyframes color_change {
+    0%{background-color: black;left: 0px;top:0px}
+    25%{background-color: gray;left: 100px;top:0px}
+    50%{background-color: ivory;left: 100px;top:100px}
+    75%{background-color: plum;left: 0px;top:100px}
+    100%{background-color: hotpink;left: 0px;top:0px}
+}
+
+.cont:hover #sub2{
+    transition: transform 1.5s ease;
+    animation-name: color_change;
+    transform: rotate(-360deg);
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes color_change{
+    from{background-color: blanchedalmond;}
+    to{background-color: purple;}
+}
+@keyframes color_change {
+    0%{background-color: black;left: 0px;top:0px}
+    25%{background-color: gray;left: 100px;top:0px}
+    50%{background-color: palegreen;left: 100px;top:100px}
+    75%{background-color: plum;left: 0px;top:100px}
+    100%{background-color: hotpink;left: 0px;top:0px}
+}
+
+.cont:hover #sub3{
+    transition: transform 1.5s ease;
+    transform: rotate(90deg);
+    animation-name: color_change;
+    transition: transform 1.5s ease;
+    transform: rotate(-360deg);
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes color_change{
+    from{background-color: blanchedalmond;}
+    to{background-color: purple;}
+}
+@keyframes color_change {
+    0%{background-color: black;left: 0px;top:0px}
+    25%{background-color: gray;left: 100px;top:0px}
+    50%{background-color: palegreen;left: 100px;top:100px}
+    75%{background-color: plum;left: 0px;top:100px}
+    100%{background-color: hotpink;left: 0px;top:0px}
+}
+
+.cont:hover #sub4{
+    transition: transform 1.5s ease;
+    transform: rotate(90deg);
+    animation-name: color_change;
+    transform: rotate(360deg);
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes color_change{
+    from{background-color: blanchedalmond;}
+    to{background-color: purple;}
+}
+@keyframes color_change {
+    0%{background-color: black;left: 0px;top:0px}
+    25%{background-color: gray;left: 100px;top:0px}
+    50%{background-color: palegreen;left: 100px;top:100px}
+    75%{background-color: plum;left: 0px;top:100px}
+    100%{background-color: hotpink;left: 0px;top:0px}
+}
+
+.cont:hover #sub5{
+    transition: transform 1.5s ease;
+    transform-box: 50px;
+    animation-name: color_change;
+    transform: rotate(180deg);
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes color_change{
+    from{background-color: blanchedalmond;}
+    to{background-color: purple;}
+}
+@keyframes color_change {
+    0%{background-color: black;left: 0px;top:0px;}
+    25%{background-color: gray;left: 100px;top:0px;}
+    50%{background-color: palegreen;left: 100px;top:100px;}
+    75%{background-color: plum;left: 0px;top:100px;}
+    100%{background-color: hotpink;left: 0px;top:0px;}
+}
+
+.cont:hover #sub6{
+    transition: transform 1.5s ease;
+    animation-name: color_change;
+    transform: rotate(180deg); 
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes color_change{
+    from{background-color: blanchedalmond;
+    transform: scale(2);}
+    to{background-color: purple;}
+}
+@keyframes color_change {
+    0%{background-color: black;left: 0px;top:0px}
+    25%{background-color: gray;left: 100px;top:0px}
+    50%{background-color: palegreen;left: 100px;top:100px}
+    75%{background-color: plum;left: 0px;top:100px}
+    100%{background-color: hotpink;left: 0px;top:0px}
+}
+.cont:hover #lefteye{
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: 5;
+}
+  
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 200px, 0);
+    }
+}
+/* Prefix Support */
+  
+#lefteye{
+    -webkit-animation-name: bounce;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    -webkit-animation-iteration-count: infinite;
+}
+  
+@-webkit-keyframes bounce {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        -webkit-transform: translate3d(0, 200px, 0);
+        transform: translate3d(0, 200px, 0);
+    }
+}
+.cont:hover #righteye{
+    animation: bounce 0.5s;
+    animation-direction:alternate-reverse;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: 5;
+}
+  
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 200px, 0);
+    }
+}
+/* Prefix Support */
+  
+#righteye{
+    -webkit-animation-name: bounce;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    -webkit-animation-iteration-count: infinite;
+}
+  
+@-webkit-keyframes bounce {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    to {
+        -webkit-transform: translate3d(0, 200px, 0);
+        transform: translate3d(0, 200px, 0);
+    }
+}
